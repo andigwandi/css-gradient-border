@@ -14,7 +14,7 @@ This project demonstrates a CSS radiant glow effect on cards that respond to mou
 
 First of all links to our CSS stylesheet named "styles.css" to the HTML document.
 
-Here, I have created 3 times, <div> elements with the class "card" representing a card element with a title (<h1>) and a description (<p>). Additionally, cards contain another child <div> element with the class "glow", which will be the container for the glowing border effect.
+Here, I have created 3 times, `<div>` elements with the class "card" representing a card element with a title (`<h1>`) and a description (`<p>`). Additionally, cards contain another child `<div>` element with the class "glow", which will be the container for the glowing border effect.
 
 ### Styling with CSS
 Make sure you have linked your CSS file to the HTML document.
@@ -23,7 +23,7 @@ In CSS first of all I have imported fonts from Google Fonts . Then reset the def
 
 Here, as you can see, I have created the CSS variable called --gradient defines a conic gradient  with multiple colour stops, which will be used with the background property as gradient border & glow later in the code.
 
-Then applied styles to the body, (<h1>) and description (<p>) elements.
+Then applied styles to the body, (`<h1>`) and description (`<p>`) elements.
 
 ### How to create gradient border in CSS
 In this project, the main part is to add a Gradient border to .card elements using CSS. We will use conic-gradient() CSS function  and mask property  to add a Gradient border to .card elements.
